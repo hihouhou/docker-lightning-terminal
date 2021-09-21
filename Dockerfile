@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV LT_VERSION v0.4.1-alpha
+ENV LT_VERSION v0.5.1-alpha
 
 # Update & install packages for go-callisto dep
 RUN apt-get update && \
